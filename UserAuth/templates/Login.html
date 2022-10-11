@@ -1,0 +1,48 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/login.css' %}">
+    <title>Food - Login</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+
+<body>
+    <div class="welcome">
+        <img src="{% static 'assets/login/food.jpg' %}" alt="food">
+    </div>
+    <div class="outer">
+        <div class="rectangles">
+            <h2>Welcome back</h2>
+            <p style="text-align: center; color: red; margin-bottom: 30px;">{{ error }}</p>
+            <form action="{{ request.path }}{% if next %}?next='{{ next }}'{% endif %}" method="post">
+                {% csrf_token %}
+                <!-- username part -->
+                <div class="rectangle1">
+                    <img src="{% static 'assets/login/email.png' %}" alt="email">
+                    <input type='text' name="username" placeholder="Username" required
+                        title="Invalid credentials"\>
+                </div>
+                <!-- password part -->
+                <div class="rectangle2">
+                    <img src="{% static 'assets/login/scurty.jpg' %}" alt="padlock">
+                    <input type='password' name="password" placeholder="Enter your password" required,
+                        title="Wasn't your password"\>
+                </div>
+                <div class="signin">
+                    <input type="submit" id="submit" value="Sign in">
+                </div>
+
+                <p>Don't have an account <a href="{% url 'signup' %}">Sign up</a></p>
+            </form>
+        </div>
+        <div></div>
+    </div>
+    
+</body>
+
+</html>

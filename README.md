@@ -5,7 +5,6 @@
 ## Table of Content
 
 + [Description](#description)
-+ [Contribution](#contribution)
 + [Technology Used](#technology-used)
 + [Installation Requirement](#Installation)
 

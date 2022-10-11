@@ -9,15 +9,11 @@
 + [Contribution](#contribution)
 + [Technology Used](#technology-used)
 + [Installation Requirement](#Installation)
-+ [Licence](#licence)
-+ [Authors Info](#author-Info)
+
 
 ## Description
 <p>This is a website where those resturant that have got excess food can post the food online and those without food can log in the website to see the posted food and the location of the pickup point instead of throwing away the food </p>
 
-## Figma link of the food waste management system
-
-<link>https://www.figma.com/file/ULqjEi1UJ63akhLchVgT9w/FWMS?node-id=0%3A1</link>
 
 ## Contributing to the project
 A Simple website in progress were about food waste management system

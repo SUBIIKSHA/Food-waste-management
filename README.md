@@ -6,7 +6,6 @@
 
 + [Description](#description)
 + [Technology Used](#technology-used)
-+ [Installation Requirement](#Installation)
 
 
 ## Description
@@ -22,32 +21,6 @@ This Project is created using:
 
 
 
-## Installation 
-### Requirements
-* Python3
-#### Process
- **From the project directory:**
-* Install requirements from requirements.txt
-```
- $ pip install requirements.txt
-```
-* Run migrations for django default apps
-```
-$ python manage.py migrate
-```
-* Run the custom apps migrations
-```
-$ python manage.py makemigrations catalog UserAuth
-$ python manage.py migrate
-```
-* Create a superuser administrator
-```
-$ python manage.py createsuperuser
-```
-* Run server
-```
-$ python manage.py runserver
-```
 
 
 

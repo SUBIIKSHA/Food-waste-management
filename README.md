@@ -1,6 +1,5 @@
 # Food-waste-management
 
-##### By the FWMS GROUP
 ### It is a description of our food waste management system
 
 ## Table of Content
@@ -14,19 +13,6 @@
 ## Description
 <p>This is a website where those resturant that have got excess food can post the food online and those without food can log in the website to see the posted food and the location of the pickup point instead of throwing away the food </p>
 
-
-## Contributing to the project
-A Simple website in progress were about food waste management system
-To run this program:
-
-```
-$ Fork the repository from my git hub.
-$ Clone the project to your local machine.
-$ Run the code from VS Code through a liveserver to chrome browser.
-$ Make changes where need be.
-$ Regularly commit
-$ Push the project offenly using Git commands
-$ create a pull request
 
 ```
 ## Technology used
